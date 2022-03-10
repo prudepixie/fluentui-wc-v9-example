@@ -374,4 +374,4 @@ PERFORMANCE OF THIS SOFTWARE.
         max-width: 40px;
     }
 `}
-    `)),shadowOptions:{delegatesFocus:!0}},function(e){new Qt(e,xo).define()})],Co);l.a.render(a(we,{style:{display:"grid",gap:"12px"},theme:nt},a("div",{style:{display:"grid",gap:"12px",padding:"12px"}},a(Co,{appearance:"primary"},"button"))),document.getElementById("root"))}]);
+    `)),shadowOptions:{delegatesFocus:!0}},function(e){new Qt(e,xo).define()})],Co);var Po;!function(e){e.Button="button",e.Mixed="mixed",e.Card="card"}(Po||(Po={}));const To=new URLSearchParams(window.location.search).get("component"),Oo=new URLSearchParams(window.location.search).get("repeatNum"),Lo=parseInt(Oo);l.a.render(a(we,{style:{display:"grid",gap:"12px"},theme:nt},a("div",{style:{display:"grid",gap:"12px",padding:"12px"}},(()=>{switch(To){case Po.Button:return Lo>0?[...Array(Lo)].map((e,t)=>a(Co,{appearance:"primary",key:t},"Button")):a(Co,{appearance:"primary"},"Button");case Po.Card:return a("div",null,"this is a card");case Po.Mixed:return a("div",null,"this is a mixed");default:return a(Co,{appearance:"primary"},"Button")}})())),document.getElementById("root"))}]);
